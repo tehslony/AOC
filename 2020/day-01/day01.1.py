@@ -6,8 +6,12 @@ def testNum(i):
         x=int(x)
         sum=i+x
         print("%d+%d=%d" %(i, x, sum))
-        if sum==2020:
-            return(x)
+        if sum<2020:
+            for z in lines:
+                z=int(z)
+                threesum=sum+z
+                if threesum==2020
+                    return(x)
 
 for i in lines:
     i=int(i)
